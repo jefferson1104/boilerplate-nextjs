@@ -6,7 +6,7 @@
 
 </center>
 
-This is a boilerplate to be use in your project with tecnologies TypeScript, NextJS, Jest and Styled-components.
+This is a boilerplate to be use in your project with tecnologies TypeScript, NextJS, Storybook, Styled-components, Jest and React-testing-library.
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -22,13 +22,21 @@ This project uses lot of stuff as:
 - [Husky](https://github.com/typicode/husky)
 
 ## Getting Started
-
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
+# Creating your project using this boilerplate
+$ yarn create next-app -e https://github.com/jefferson1104/boilerplate-nextjs PROJECT_NAME
+
+# Install dependencies
+$ yarn
+
+# Run local project
+$ yarn dev
+
+# Tests
+$ yarn test
+
+# Generate component
+$ yarn generate COMPONENT_NAME
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -52,20 +60,3 @@ In the **pre-commit** file inside the .husky directory **.husky/pre-commit** Cha
 - `build-storybook`: create the build version of storybook
 - `generate`: create the component structure in an automated way
 
-
-
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
